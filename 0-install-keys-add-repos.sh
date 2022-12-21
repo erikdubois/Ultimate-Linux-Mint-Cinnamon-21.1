@@ -51,16 +51,6 @@ sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder -y
 
 
 echo "################################################################"
-echo "Atom"
-echo "################################################################"
-echo
-echo "Getting the key"
-wget -q https://packagecloud.io/AtomEditor/atom/gpgkey -O- | sudo apt-key add -
-echo "Adding the repo"
-sudo add-apt-repository "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any main"
-
-
-echo "################################################################"
 echo "Visual studio"
 echo "################################################################"
 echo
